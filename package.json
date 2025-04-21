@@ -1,0 +1,16 @@
+{
+  "type": "module",
+  "scripts": {
+    "build": "nitro build --preset=firebase_app_hosting && yarn env",
+    "env": "cp .env .output/server/.env",
+    "dev": "nitro dev",
+    "preview": "node .output/server/index.mjs"
+  },
+  "packageManager": "yarn@4.8.0",
+  "engines": {
+    "node": "20"
+  },
+  "devDependencies": {
+    "nitropack": "latest"
+  }
+}
