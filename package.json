@@ -1,7 +1,8 @@
 {
   "type": "module",
   "scripts": {
-    "build": "nitro build",
+    "gcp-build": "yarn build",
+    "build": "nitro build && node start.js",
     "dev": "nitro dev",
     "preview": "node .output/server/index.mjs"
   },
