@@ -5,7 +5,6 @@
     "dev": "nitro dev",
     "preview": "node .output/server/index.mjs"
   },
-  "packageManager": "yarn@4.8.0",
   "engines": {
     "node": "20"
   },
